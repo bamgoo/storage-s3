@@ -1,2 +1,2 @@
 # storage-s3
-bamgoo s3 storage driver.
+infrago s3 storage driver.

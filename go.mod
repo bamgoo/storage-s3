@@ -1,4 +1,4 @@
-module github.com/bamgoo/storage-s3
+module github.com/infrago/storage-s3
 
 go 1.25.3
 
@@ -8,8 +8,8 @@ require (
 	github.com/aws/aws-sdk-go-v2/credentials v1.17.45
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.17.38
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.67.0
-	github.com/bamgoo/bamgoo v0.0.1
-	github.com/bamgoo/storage v0.0.1
+	github.com/infrago/infra v0.0.1
+	github.com/infrago/storage v0.0.1
 )
 
 require (

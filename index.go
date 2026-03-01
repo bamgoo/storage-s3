@@ -1,8 +1,8 @@
 package storage_s3
 
 import (
-	"github.com/bamgoo/bamgoo"
-	"github.com/bamgoo/storage"
+	"github.com/infrago/infra"
+	"github.com/infrago/storage"
 )
 
 func Driver() storage.Driver {
@@ -10,5 +10,5 @@ func Driver() storage.Driver {
 }
 
 func init() {
-	bamgoo.Register("s3", Driver())
+	infra.Register("s3", Driver())
 }

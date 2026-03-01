@@ -17,7 +17,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/credentials"
 	"github.com/aws/aws-sdk-go-v2/feature/s3/manager"
 	"github.com/aws/aws-sdk-go-v2/service/s3"
-	"github.com/bamgoo/storage"
+	"github.com/infrago/storage"
 )
 
 type (
@@ -226,7 +226,7 @@ func (c *s3Connection) Fetch(file *storage.File, opt storage.FetchOption) (stora
 	}
 	defer out.Body.Close()
 
-	tmp, err := os.CreateTemp("", "bamgoo-storage-s3-*")
+	tmp, err := os.CreateTemp("", "infrago-storage-s3-*")
 	if err != nil {
 		return nil, err
 	}
