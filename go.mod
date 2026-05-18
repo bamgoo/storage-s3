@@ -8,8 +8,8 @@ require (
 	github.com/aws/aws-sdk-go-v2/credentials v1.17.45
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.17.38
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.67.0
-	github.com/infrago/infra v0.25.0
-	github.com/infrago/storage v0.25.0
+	github.com/infrago/infra v0.26.0
+	github.com/infrago/storage v0.26.0
 )
 
 require (
