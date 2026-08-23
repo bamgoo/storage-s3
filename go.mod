@@ -8,8 +8,8 @@ require (
 	github.com/aws/aws-sdk-go-v2/credentials v1.17.45
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.17.38
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.67.0
-	github.com/infrago/infra v0.29.0
-	github.com/infrago/storage v0.29.0
+	github.com/infrago/infra v0.30.0
+	github.com/infrago/storage v0.30.0
 )
 
 require (
@@ -27,5 +27,11 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.28.4 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.33.0 // indirect
 	github.com/aws/smithy-go v1.22.0 // indirect
+	github.com/disintegration/imaging v1.6.2 // indirect
+	github.com/infrago/base v0.30.0 // indirect
+	github.com/infrago/util v0.30.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.2 // indirect
+	golang.org/x/image v0.25.0 // indirect
+	golang.org/x/sync v0.16.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
